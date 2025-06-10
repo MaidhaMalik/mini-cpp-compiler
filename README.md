@@ -27,30 +27,27 @@ Step-by-step display of each compilation phase
 Token table and semantic error output
 Intermediate and optimized code panels
 
-Project Structure
-## cc/
-main.py                # Entry point with GUI
-exer.py               # Token generation logic
-parser.py              # Syntax analysis and AST generation
-semantic.py            # Semantic checks
-icg.py                 # Intermediate Code Generation
-optimizer.py           # Code optimization logic
-utils/                 # Utility modules and grammar definitions
- ui/                    # Qt UI files
+## Project Structure
+
+- `cc/`
+  - `main.py` – Entry point with GUI
+  - `exer.py` – Token generation logic
+  - `parser.py` – Syntax analysis and AST generation
+  - `semantic.py` – Semantic checks
+  - `icg.py` – Intermediate Code Generation
+  - `optimizer.py` – Code optimization logic
+- `utils/` – Utility modules and grammar definitions
+- `ui/` – Qt UI files
 
 **Requirements**
 Python 3.8+
 PyQt5
 
 **Installation**
-bash
-Copy
-Edit
+Clone the repository and run the project locally:
+
+```bash
 git clone https://github.com/yourusername/cpp-compiler-python.git
 cd cpp-compiler-python
 pip install -r requirements.txt
-Run the Compiler
-bash
-Copy
-Edit
 python main.py
