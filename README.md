@@ -28,18 +28,15 @@ Token table and semantic error output
 Intermediate and optimized code panels
 
 Project Structure
-bash
-Copy
-Edit
-cc/
-├── main.py                # Entry point with GUI
-├── lexer.py               # Token generation logic
-├── parser.py              # Syntax analysis and AST generation
-├── semantic.py            # Semantic checks
-├── icg.py                 # Intermediate Code Generation
-├── optimizer.py           # Code optimization logic
-├── utils/                 # Utility modules and grammar definitions
-└── ui/                    # Qt UI files
+## cc/
+main.py                # Entry point with GUI
+exer.py               # Token generation logic
+parser.py              # Syntax analysis and AST generation
+semantic.py            # Semantic checks
+icg.py                 # Intermediate Code Generation
+optimizer.py           # Code optimization logic
+utils/                 # Utility modules and grammar definitions
+ ui/                    # Qt UI files
 
 **Requirements**
 Python 3.8+
