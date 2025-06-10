@@ -1,3 +1,4 @@
+**C++ compiler**
 A Python-based C++ compiler with a Qt5 GUI that simulates all major compilation phases including lexical analysis, syntax analysis (AST), semantic checks, intermediate code generation, and code optimization. Designed as an educational tool to demonstrate how a compiler processes and transforms C++ code step by step.
 
 **Lexical Analysis**
@@ -29,14 +30,12 @@ Intermediate and optimized code panels
 
 ## Project Structure
 
-- `cc/`
-  - `main.py` – Entry point with GUI
-  - `exer.py` – Token generation logic
-  - `parser.py` – Syntax analysis and AST generation
-  - `semantic.py` – Semantic checks
-  - `icg.py` – Intermediate Code Generation
-  - `optimizer.py` – Code optimization logic
-- `utils/` – Utility modules and grammar definitions
+- `main.py` – Entry point with GUI
+- `exer.py` – Token generation logic
+- `parser.py` – Syntax analysis and AST generation
+- `semantic.py` – Semantic checks
+- `icg.py` – Intermediate Code Generation
+- `optimizer.py` – Code optimization logic
 - `ui/` – Qt UI files
 
 **Requirements**
